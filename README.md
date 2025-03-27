@@ -13,7 +13,7 @@ To get started developing right away:
 
 ## What You're Getting
 
-````bash
+```bash
 ├── README.md - This file.
 ├── package.json # npm package manager file. It's unlikely that you'll need to modify this.
 ├── index.html # You can change the title and the icon
@@ -31,6 +31,8 @@ To get started developing right away:
     ├── index.css # Global styles. You probably won't need to change anything here.
     └── main.js # If you want to implement a BrowserRouter you can do it in this file. In the Udacity workspace, you need to use HashRouter instead.
 
+```
+
 Remember that good React design practice is to create new JS files for each component and use import/require statements to include them where they are needed.
 
 ## Backend Server
@@ -47,7 +49,7 @@ Method Signature:
 
 ```js
 getAll();
-````
+```
 
 - Returns a Promise which resolves to a JSON object containing a collection of book objects.
 - This collection represents the books currently in the bookshelves in your app.
